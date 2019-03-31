@@ -1,6 +1,7 @@
 import time
-import pandas as pd
+
 import numpy as np
+import pandas as pd
 
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
@@ -169,13 +170,13 @@ def user_stats(df):
         birth_year = df['Birth Year']
 
         earliest_year = int(birth_year.min())
-        print("\nThe most earliest birth year:", earliest_year)
+        print("\nThe most earliest birth year is {}.".format(earliest_year))
 
         most_common_year = int(birth_year.mode()[0])
-        print("The most common birth year:", most_common_year)
+        print("The most common birth year is {}.".format(most_common_year))
 
         most_recent = int(birth_year.max())
-        print("The most recent birth year:", most_recent)
+        print("The most recent birth year is {}.".format(most_recent))
     else:
         print("\nNo birth data.")
 
