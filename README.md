@@ -2,7 +2,7 @@
 26/2/2019
 
 ### Project Title
-Jessica's Bikeshare Project
+Jessica's Bikeshare Project - an **Udacity** project
 
 ### Description
 This python project allows you to analyze the bikeshare data of three U.S. cities: Chicago, New York City and Washington. Have fun while exploring it!
