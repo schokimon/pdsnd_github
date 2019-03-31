@@ -1,15 +1,14 @@
 ### Date created
-Include the date you created this project and README file.
+26/2/2019
 
 ### Project Title
-Replace the Project Title
+Jessica's Bikeshare Project
 
 ### Description
-Describe what your project is about and what it does
+This python project allows you to analyze the bikeshare data of three U.S. cities: Chicago, New York City and Washington. Have fun while exploring it!
 
 ### Files used
-Include the files used
+To run this project you need the python script *bikeshare.py* and also three files containing the data: *chicago.csv*, *new_york_city.csv* and *washington.csv*. You'll find the original data [here](https://www.divvybikes.com/system-data)
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+Thanks to the great **Udacity** team to make this all possible for me!
